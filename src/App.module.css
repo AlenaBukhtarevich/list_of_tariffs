@@ -1,0 +1,44 @@
+.cardContainer {
+  display: flex;
+  flex-direction: row; /* Размещение карточек в одну строку */
+
+  padding: 16px;
+}
+
+.redCardHeader {
+  background-color: #de6361;
+}
+
+.greenCardHeader {
+  background-color: #557756;
+}
+
+.blueCardHeader {
+  background-color: #4b7aa0;
+}
+
+.greyCardHeader {
+  background-color: #2f2f2f;
+}
+
+.redCardPrice {
+  background-color: #faa7a6;
+}
+
+.greenCardPrice {
+  background-color: #9ec6a0;
+}
+
+.blueCardPrice {
+  background-color: #8bafcc;
+}
+
+.greyCardPrice {
+  background-color: #3b3a3a;
+}
+
+.largeCard {
+  transform: scale(1.1); /* Увеличиваем карточку на 20% */
+  transition: transform 0.3s ease-in-out; /* Добавляем анимацию */
+  z-index: 1;
+}
