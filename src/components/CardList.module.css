@@ -1,0 +1,43 @@
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.blueCardHeader {
+  background-color: #3d80b6;
+  padding: 10px;
+}
+
+.greenCardHeader {
+  background-color: #55ab58;
+  padding: 10px;
+}
+
+.redCardHeader {
+  background-color: #f95e5b;
+  padding: 10px;
+}
+
+.greyCardHeader {
+  background-color: #575555;
+  padding: 10px;
+}
+
+.blueCardPrice {
+  background-color: #a7c6f3;
+}
+
+.greenCardPrice {
+  background-color: #99e99e;
+}
+
+.redCardPrice {
+  background-color: #f68585;
+}
+
+.greyCardPrice {
+  background-color: #8f8f8f;
+}

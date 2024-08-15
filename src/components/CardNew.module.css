@@ -32,3 +32,13 @@
 .footerClass {
   background-color: #ececec;
 }
+
+.selectedCard {
+  border: 3px solid #939393;
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card {
+  cursor: pointer;
+}

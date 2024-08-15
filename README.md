@@ -1,10 +1,10 @@
 # Tariffs
 
-Список тарифов (карточка тарифа выделена как компонент). Тариф с ценой 550р выделяется заметнее остальных.
+Интерактивный список тарифов (карточка тарифа выделена как компонент). Есть возможность выбирать тариф нажатием на него.
 
 <img src="src/assets/tariffs.png" alt="tariffs" />
 
-# Технологии
+# Технологии (React + Vite)
 
 <div align="center">  
 <a href="https://reactjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" /></a> 

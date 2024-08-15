@@ -1,9 +1,23 @@
 import React from "react";
 import styles from "./CardNew.module.css";
 
-function CardNew({ name, price, speed, className, headerClass, priceClass }) {
+function CardNew({
+  name,
+  price,
+  speed,
+  className,
+  headerClass,
+  priceClass,
+  onClick,
+  isSelected,
+}) {
   return (
-    <div className={`${styles.card} ${className}`}>
+    <div
+      className={`${styles.card} ${className} ${
+        isSelected ? styles.selectedCard : ""
+      }`}
+      onClick={onClick}
+    >
       <div className={headerClass}>
         <h4 className={styles.cardName}>Безлимитный {name}</h4>
       </div>
